@@ -101,6 +101,8 @@ plt.plot(X, statistics[0], color="blue", label='best similarity')
 plt.plot(X, statistics[1], color="green", label='avg similarity')
 plt.plot(X, statistics[2], color="red", label='worst similarity')
 plt.legend(loc='upper left', frameon=False)
+plt.xlabel('generation')
+plt.ylabel('similarity')
 plt.show()
 print result[0]
 print result[-1]
